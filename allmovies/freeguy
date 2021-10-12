@@ -1,10 +1,21 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
     <head>
         <meta charset="utf-8"/>
-        <title> Free Guy - MReview</title>
+        <title>Free Guy - MReview</title>
     </head>
     <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">All Movies</a></li>
+                <li><a href="genres.html">Genres</a></li>
+                <li><a href="forum.html">Forum</a></li>
+                <li>Search</li>
+            </ul>
+        </nav>
         <h1>Free Guy</h1>
         <p><b>Rated PG-13</b></p>
         <p><em>Action | Adventure | Comedy</em></p>
