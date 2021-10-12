@@ -1,6 +1,6 @@
 # Find all movies of a given genre and generate the page for it 
 import os
-genres = ['Animation', 'Biography', 'Comedy', 'Crime', 
+genres = ['Action','Adventure','Animation', 'Biography', 'Comedy', 'Crime', 
     'Documentary', 'Drama', 'Family', 'Fantasy', 'Noir', 
     'History', 'Horror', 'Music', 'Musical', 'Mystery', 'Romance', 
     'Sci-Fi', 'Sports', 'Superhero', 'Thriller', 'War', 'Western']
@@ -93,6 +93,7 @@ end = '''</dl>
 m = movies.split('\n')
 
 for genre in genres:
+    s = start
     out = []
     for i in  range(len(m)):
         # print(i)
@@ -103,6 +104,6 @@ for genre in genres:
         elif genre in m[i] or genre in m[i+1]:
                 out.append(m[i])
     for i in out:
-        start += i + '\n'
-    start += end
-    os.system(f"echo '{start}' > ./genre/{genre.lower().replace('-', '').replace(' ', '')}.html")
+        s += i + '\n'
+    s += end
+    os.system(f"echo '{s}' > ./genre/{genre.lower().replace('-', '').replace(' ', '')}.html")
