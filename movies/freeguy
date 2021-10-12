@@ -1,1 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title> Free Guy - MReview</title>
+    </head>
+    <body>
+        <h1>Free Guy</h1>
+        <p><b>Rated PG-13</b></p>
+        <p><em>Action | Adventure | Comedy</em></p>
+        <hr>
+        <h2>Movie Description:</h2>
+        <p>A bank teller discovers that he's actually an NPC inside a brutal, open world video game.</p>
+        <h2>Movie Reviews:</h2>
+        <h4>Critics Reviews</h4>
+        <p>"Free Guy puts the lovable goofball in a action flick perfect for him that's not too serious and gives him plenty of room to, well, be Ryan Reynolds." - AMFM Magazine</p>
+        <p>"Highly enjoyable and wonderfully funny, with almost as much heart as high-octane special FX sequences." - ABC Radio Australia</p>
+        <h4>Audience Consensus</h4>
+        <p>Free Guy's an all-around good time, with a funny Ryan Reynolds performance leading an exciting story and some impressive special effects.</p>
+        <h2>Movie Ratings:</h2>
+        <p>80% Rotten Tomatoes</p>
+        <p>94% Audience Score</p>
+        <p>7.3/10 IMDb Rating</p>
+    </body>
 
+</html>
