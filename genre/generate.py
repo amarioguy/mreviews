@@ -66,16 +66,21 @@ movies = '''
     <dd><em>Action | Adventure | Sci-Fi</em></dd>
     <dt><b>Spider-Man: No Way Home</b></dt>
     <dd><em>Action | Adventure | Sci-Fi</em></dd>'''
-start = '''<!DOCTYPE html>
+end = '''</dl>
+</body>
+</html>'''
+m = movies.split('\n')
 
+for genre in genres:
+    s = f'''<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8"/>
-    <title> Action Movies - MReview</title>
+    <title> {genre} Movies - MReview</title>
 </head>
 <body>
-<h1>Movies by Genre</h1>
+<h1>{genre} Movies</h1>
 <nav>
     <ul>
         <li><a href="index.html">Home</a></li>
@@ -87,13 +92,6 @@ start = '''<!DOCTYPE html>
 </nav>
 <dl>
 '''
-end = '''</dl>
-</body>
-</html>'''
-m = movies.split('\n')
-
-for genre in genres:
-    s = start
     out = []
     for i in  range(len(m)):
         # print(i)
