@@ -1,0 +1,59 @@
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+}
+
+h2,h3{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 145, 0);
+}
+
+img{
+    width: 200px;
+    length: 200px;
+    margin-left: 20px;
+}
+
+p.rating{
+    display: inline;
+    border-radius: 25px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 10%;
+    height: 100%;
+    padding: 10px;
+}
+
+p{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div{
+    margin: 20px;
+}
+
+div.reviews{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(99, 99, 99);
+    padding: 10px;
+}
+
+p.genre{
+    display: inline;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgb(10, 0, 95);
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 8%;
+    height: 100%;
+    margin: 10px;
+}
+
+body{
+    background-color: rgb(185, 185, 185);
+}
