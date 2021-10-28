@@ -15,6 +15,7 @@ dt.gallery:hover{
 }
 
 p {
+    height: 20px;
     text-align: center;
     color: rgb(0, 0, 0);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
