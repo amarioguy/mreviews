@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+div.moviename h1{
+    color: white;
+    font-size: 200%;
+    width: 100%;
+}
+
+div.moviename p{
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 60%;
+    text-align: center;
+    padding: .5%;
+    font-weight: bolder;
+    font-size: 60%;
+    margin-left: 25%;
+}
+
+div.moviegenres{
+    margin-left: 31%;
+    width: 100%;
+}
+
+div.moviegenres p{
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    text-align: center;
+    padding: .5%;
+    font-size: 65%;
+    width: 50%;
+}
+
+div img{
+    width: 100%;
+    height: 100%;
+    margin-left: 15%;
+}
+
+div.poster{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+div.reviews{
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    background-color: rgb(37, 37, 37);
+}
+
+div.reviews h2{
+    color: orange;
+    font-size: 110%;
+}
+
+div.reviews h3{
+    margin-left: 2%;
+    color: palevioletred;
+    font-size: 90%;
+}
+
+div.reviews p{
+    font-size: 70%;
+}
