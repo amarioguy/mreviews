@@ -4,3 +4,9 @@ body{
     margin-right: 5%;
     margin-left: 5%;
 }
+
+li{
+    color:white;
+    font-size: 200%;
+    width: 100%;
+}
