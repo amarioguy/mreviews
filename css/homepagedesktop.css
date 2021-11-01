@@ -5,8 +5,9 @@ body{
     margin-left: 5%;
 }
 
-li{
+h2, p, li, h3{
     color:white;
     font-size: 200%;
     width: 100%;
 }
+
