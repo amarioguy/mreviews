@@ -2,6 +2,33 @@
     box-sizing: border-box;
 }
 
+li{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    padding: 1%;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+
+
+
+li.search{
+    color: rgb(255, 0, 0);
+    font-size: medium;
+    text-decoration: none;
+}
+
+li.tabs a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: medium;
+}
+
 body{
     margin-left: 5%;
     margin-right: 5%;

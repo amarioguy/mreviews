@@ -1,6 +1,37 @@
+li{
+    border: 2px solid rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    padding: 1%;
+    width: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+ul.tabbar{
+    text-align: center;
+}
+
+li.search{
+    color: rgb(255, 0, 0);
+    font-size: medium;
+    text-decoration: none;
+}
+
+li.tabs a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: medium;
+}
 body{
     background-color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-right: 5%;
-    margin-left: 5%;
+}
+
+h2, p, h3{
+    color:white;
+    font-size: 200%;
+    width: 100%;
 }
