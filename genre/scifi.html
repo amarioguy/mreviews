@@ -4,27 +4,45 @@
 <head>
     <meta charset="utf-8"/>
     <title> Sci-Fi Movies - MReview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\css/moviegallerydesktop.css" media="screen and (min-width:769px)"/>
+    <link rel="stylesheet" href="..\css/moviegallerytablet.css" media="screen and (min-width:481px) and (max-width:768px)"/>
+    <link rel="stylesheet" href="..\css/moviegalleryphone.css" media="screen and (max-width:480px)"/>
 </head>
 <body>
-<h1>Sci-Fi Movies</h1>
 <nav>
-    <ul>
-        <li><a href="..\index.html">Home</a></li>
-        <li><a href="..\movies.html">All Movies</a></li>
-        <li><a href="..\genres.html">Genres</a></li>
-        <li><a href="..\forum.html">Forum</a></li>
-        <li>Search</li>
+    <ul class="tabbar">
+        <li class="tabs"><a href="..\index.html">Home</a></li>
+        <li class="tabs"><a href="..\movies.html">All Movies</a></li>
+        <li class="tabs"><a href="..\genres.html">Genres</a></li>
+        <li class="tabs"><a href="..\forum.html">Forum</a></li>
+        <li class="search">Search</li>
     </ul>
 </nav>
-<dl>
-    <dt><b><a href="..\allmovies/venomlettherebecarnage.html">Venom: Let There be Carnage</a></b></dt>
-    <dd><em>Action | Adventure | Sci-Fi</em></dd>
-    <dt><b><a href="..\allmovies/blackwidow.html">Black Widow</a></b></dt>
-    <dd><em>Action | Adventure | Sci-Fi</em></dd>
-    <dt><b><a href="..\allmovies/venom.html">Venom</a></b></dt>
-    <dd><em>Action | Adventure | Sci-Fi</em></dd>
-    <dt><b><a href="..\allmovies/spidermannowayhome.html">Spider-Man: No Way Home</a></b></dt>
-    <dd><em>Action | Adventure | Sci-Fi</em></dd>
-</dl>
+<div class="header"><h1>Sci-Fi Movies</h1></div>
+<div>
+    <div class="gallery">
+        <a href="..\allmovies/venomlettherebecarnage.html"><img src="..\images/venomlettherebecarnageimage.jpg" alt="Venom: Let There Be Carnage"/>
+          <div class="desc">
+            Venom: Let There be Carnage
+          </div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/blackwidow.html"><img src="..\images/blackwidowimage.jpg" alt="Black Widow"/>
+          <div class="desc">Black Widow</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/venom.html"><img src="..\images/venomimage.jpg" alt="Venom"/>
+          <div class="desc">Venom</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/spidermannowayhome.html"><img src="..\images/spidermannowayhomeimage.jpg" alt="Spider-Man: No Way Home"/>
+          <div class="desc">Spider-Man: No Way Home</div>
+        </a>
+    </div>
+</div>
 </body>
 </html>

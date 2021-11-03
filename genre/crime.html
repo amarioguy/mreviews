@@ -4,31 +4,53 @@
 <head>
     <meta charset="utf-8"/>
     <title> Crime Movies - MReview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\css/moviegallerydesktop.css" media="screen and (min-width:769px)"/>
+    <link rel="stylesheet" href="..\css/moviegallerytablet.css" media="screen and (min-width:481px) and (max-width:768px)"/>
+    <link rel="stylesheet" href="..\css/moviegalleryphone.css" media="screen and (max-width:480px)"/>
 </head>
 <body>
-<h1>Crime Movies</h1>
 <nav>
-    <ul>
-        <li><a href="..\index.html">Home</a></li>
-        <li><a href="..\movies.html">All Movies</a></li>
-        <li><a href="..\genres.html">Genres</a></li>
-        <li><a href="..\forum.html">Forum</a></li>
-        <li>Search</li>
+    <ul class="tabbar">
+        <li class="tabs"><a href="..\index.html">Home</a></li>
+        <li class="tabs"><a href="..\movies.html">All Movies</a></li>
+        <li class="tabs"><a href="..\genres.html">Genres</a></li>
+        <li class="tabs"><a href="..\forum.html">Forum</a></li>
+        <li class="search">Search</li>
     </ul>
 </nav>
-<dl>
-    <dt><b><a href="..\allmovies/halloweenkills.html">Halloween Kills</a></b></dt>
-    <dd><em>Crime | Horror | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/theguilty.html">The Guilty</a></b></dt>
-    <dd><em>Crime | Drama | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/manysaintsofnewark.html">The Many Saints of Newark</a></b></dt>
-    <dd><em>Crime | Drama</em></dd>
-    <dt><b><a href="..\allmovies/malignant.html">Malignant</a></b></dt>
-    <dd><em>Crime | Horror | Mystery</em></dd>
-    <dt><b><a href="..\allmovies/cruella.html">Cruella</a></b></dt>
-    <dd><em>Adventure | Comedy | Crime</em></dd>
-    <dt><b><a href="..\allmovies/cardcounter.html">The Card Counter</a></b></dt>
-    <dd><em>Action | Crime | Drama</em></dd>
-</dl>
+<div class="header"><h1>Crime Movies</h1></div>
+<div>
+    <div class="gallery">
+        <a href="..\allmovies/halloweenkills.html"><img src="..\images/halloweenkillsimage.jpg" alt="Halloween Kills"/>
+          <div class="desc">Halloween Kills</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/theguilty.html"><img src="..\images/theguiltyimage.jpg" alt="The Guilty"/>
+          <div class="desc">The Guilty</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/manysaintsofnewark.html"><img src="..\images/manysaintsofnewarkimage.jpg" alt="The Many Saints of Newark"/>
+          <div class="desc">The Many Saints of Newark</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/malignant.html"><img src="..\images/malignantimage.jpg" alt="Malignant"/>
+          <div class="desc">Malignant</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/cruella.html"><img src="..\images/cruellaimage.jpg" alt="Cruella"/>
+          <div class="desc">Cruella</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/cardcounter.html"><img src="..\images/cardcounterimage.jpg" alt="The Card Counter"/>
+          <div class="desc">The Card Counter</div>
+        </a>
+    </div>
+</div>
 </body>
 </html>

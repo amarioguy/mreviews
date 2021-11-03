@@ -4,51 +4,112 @@
 <head>
     <meta charset="utf-8"/>
     <title> Action Movies - MReview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\css/moviegallerydesktop.css" media="screen and (min-width:769px)"/>
+    <link rel="stylesheet" href="..\css/moviegallerytablet.css" media="screen and (min-width:481px) and (max-width:768px)"/>
+    <link rel="stylesheet" href="..\css/moviegalleryphone.css" media="screen and (max-width:480px)"/>
 </head>
 <body>
-<h1>Action Movies</h1>
 <nav>
-    <ul>
-        <li><a href="..\index.html">Home</a></li>
-        <li><a href="..\movies.html">All Movies</a></li>
-        <li><a href="..\genres.html">Genres</a></li>
-        <li><a href="..\forum.html">Forum</a></li>
-        <li>Search</li>
+    <ul class="tabbar">
+        <li class="tabs"><a href="..\index.html">Home</a></li>
+        <li class="tabs"><a href="..\movies.html">All Movies</a></li>
+        <li class="tabs"><a href="..\genres.html">Genres</a></li>
+        <li class="tabs"><a href="..\forum.html">Forum</a></li>
+        <li class="search">Search</li>
     </ul>
 </nav>
-<dl>
-    <dt><b><a href="..\allmovies/freeguy.html">Free Guy</a></b></dt>
-    <dd><em>Action | Adventure | Comedy</em></dd>
-    <dt><b><a href="..\allmovies/venomlettherebecarnage.html">Venom: Let There be Carnage</a></b></dt>
-    <dd><em>Action | Adventure | Sci-Fi</em></dd>
-    <dt><b><a href="..\allmovies/dune.html">Dune</a></b></dt>
-    <dd><em>Action | Adventure | Drama</em></dd>
-    <dt><b><a href="..\allmovies/residentevilraccooncity.html">Resident Evil: Welcome to Raccoon City</a></b></dt>
-    <dd><em>Action | Horror | Mystery</em></dd>
-    <dt><b><a href="..\allmovies/notimetodie.html">No Time to Die</a></b></dt>
-    <dd><em>Action | Adventure | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/blackwidow.html">Black Widow</a></b></dt>
-    <dd><em>Action | Adventure | Sci-Fi</em></dd>
-    <dt><b><a href="..\allmovies/spectre.html">Spectre</a></b></dt>
-    <dd><em>Action | Adventure | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/lastduel.html">The Last Duel</a></b></dt>
-    <dd><em>Action | Drama | History</em></dd>
-    <dt><b><a href="..\allmovies/cardcounter.html">The Card Counter</a></b></dt>
-    <dd><em>Action | Crime | Drama</em></dd>
-    <dt><b><a href="..\allmovies/shangchiandlegendoftenrings.html">Shang-Chi and the Legend of the Ten Rings</a></b></dt>
-    <dd><em>Action | Adventure | Fantasy</em></dd>
-    <dt><b><a href="..\allmovies/casinoroyale.html">Casino Royale</a></b></dt>
-    <dd><em>Action | Adventure | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/eternals.html">Eternals</a></b></dt>
-    <dd><em>Action | Adventure | Drama</em></dd>
-    <dt><b><a href="..\allmovies/suicidesquad.html">Suicide Squad</a></b></dt>
-    <dd><em>Action | Adventure | Comedy</em></dd>
-    <dt><b><a href="..\allmovies/junglecruise.html">Jungle Cruise</a></b></dt>
-    <dd><em>Action | Adventure | Comedy</em></dd>
-    <dt><b><a href="..\allmovies/venom.html">Venom</a></b></dt>
-    <dd><em>Action | Adventure | Sci-Fi</em></dd>
-    <dt><b><a href="..\allmovies/spidermannowayhome.html">Spider-Man: No Way Home</a></b></dt>
-    <dd><em>Action | Adventure | Sci-Fi</em></dd>
-</dl>
+<div class="header">
+    <h1>Action Movies</h1>
+</div>
+
+<div>
+    <div class="gallery">
+        <a href="..\allmovies/freeguy.html"><img src="..\images/freeguyimage.jpg" alt="Free Guy" />
+          <div class="desc">
+            Free Guy
+          </div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/venomlettherebecarnage.html"><img src="..\images/venomlettherebecarnageimage.jpg" alt="Venom: Let There Be Carnage"/>
+          <div class="desc">
+            Venom: Let There be Carnage
+          </div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/dune.html"><img src="..\images/duneimage.jpg" alt="Dune"/>
+          <div class="desc">
+            Dune
+            </div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/residentevilraccooncity.html"><img src="..\images/residentevilraccooncityimage.jpg" alt="Resident Evil: Welcome to Raccoon City"/>
+          <div class="desc">Resident Evil: Welcome to Raccoon City</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/notimetodie.html"><img src="..\images/notimetodieimage.jpg" alt="No Time to Die"/>
+          <div class="desc">No Time to Die</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/blackwidow.html"><img src="..\images/blackwidowimage.jpg" alt="Black Widow"/>
+          <div class="desc">Black Widow</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/spectre.html"><img src="..\images/spectreimage.jpg" alt="Spectre"/>
+          <div class="desc">Spectre</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/lastduel.html"><img src="..\images/lastduelimage.jpg" alt="The Last Duel"/>
+          <div class="desc">The Last Duel</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/cardcounter.html"><img src="..\images/cardcounterimage.jpg" alt="The Card Counter"/>
+          <div class="desc">The Card Counter</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/shangchiandlegendoftenrings.html"><img src="..\images/shangchiandlegendoftenringsimage.jpg" alt="Shang-Chi and the Legend of the Ten Rings"/>
+          <div class="desc">Shang-Chi and the Legend of the Ten Rings</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/casinoroyale.html"><img src="..\images/casinoroyaleimage.jpg" alt="Casino Royale"/>
+          <div class="desc">Casino Royale</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/eternals.html"><img src="..\images/eternalsimage.jpg" alt="Eternals"/>
+          <div class="desc">Eternals</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/suicidesquad.html"><img src="..\images/suicidesquadimage.jpg" alt="Suicide Squad"/>
+          <div class="desc">Suicide Squad</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/junglecruise.html"><img src="..\images/junglecruiseimage.jpg" alt="Jungle Cruise"/>
+          <div class="desc">Jungle Cruise</div>
+        </a>
+      </div>
+      <div class="gallery">
+        <a href="..\allmovies/venom.html"><img src="..\images/venomimage.jpg" alt="Venom"/>
+          <div class="desc">Venom</div>
+        </a>
+      </div>
+    <div class="gallery">
+        <a href="..\allmovies/spidermannowayhome.html"><img src="..\images/spidermannowayhomeimage.jpg" alt="Spider-Man: No Way Home"/>
+          <div class="desc">Spider-Man: No Way Home</div>
+        </a>
+    </div>
+</div>
 </body>
 </html>

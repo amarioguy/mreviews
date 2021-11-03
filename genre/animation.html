@@ -4,25 +4,40 @@
 <head>
     <meta charset="utf-8"/>
     <title> Animation Movies - MReview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\css/moviegallerydesktop.css" media="screen and (min-width:769px)"/>
+    <link rel="stylesheet" href="..\css/moviegallerytablet.css" media="screen and (min-width:481px) and (max-width:768px)"/>
+    <link rel="stylesheet" href="..\css/moviegalleryphone.css" media="screen and (max-width:480px)"/>
 </head>
 <body>
-<h1>Animation Movies</h1>
 <nav>
-    <ul>
-        <li><a href="..\index.html">Home</a></li>
-        <li><a href="..\movies.html">All Movies</a></li>
-        <li><a href="..\genres.html">Genres</a></li>
-        <li><a href="..\forum.html">Forum</a></li>
-        <li>Search</li>
+    <ul class="tabbar">
+        <li class="tabs"><a href="..\index.html">Home</a></li>
+        <li class="tabs"><a href="..\movies.html">All Movies</a></li>
+        <li class="tabs"><a href="..\genres.html">Genres</a></li>
+        <li class="tabs"><a href="..\forum.html">Forum</a></li>
+        <li class="search">Search</li>
     </ul>
 </nav>
-<dl>
-    <dt><b><a href="..\allmovies/addamsfamilytwo.html">The Addams Family 2</a></b></dt>
-    <dd><em>Animation | Adventure | Comedy</em></dd>
-    <dt><b><a href="..\allmovies/addamsfamily.html">The Addams Family</a></b></dt>
-    <dd><em>Animation | Adventure | Comedy</em></dd>
-    <dt><b><a href="..\allmovies/mylittleponyanewgeneration.html">My Little Pony: A New Generation</a></b></dt>
-    <dd><em>Animation | Adventure | Comedy</em></dd>
-</dl>
+<div class="header"><h1>Animation Movies</h1></div>
+<div>
+    <div class ="gallery">
+        <a href="..\allmovies/addamsfamilytwo.html"><img src="..\images/addamsfamilytwoimage.jpg" alt="The Addams Family 2"/>
+          <div class="desc">
+            The Addams Family 2
+          </div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/addamsfamily.html"><img src="..\images/addamsfamilyimage.jpg" alt="The Addams Family"/>
+          <div class="desc">The Addams Family</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/mylittleponyanewgeneration.html"><img src="..\images/mylittleponyanewgenerationimage.jpg" alt="My Little Pony: A New Generation"/>
+          <div class="desc">My Little Pony: A New Generation</div>
+        </a>
+    </div>
+</div>
 </body>
 </html>

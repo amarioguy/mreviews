@@ -4,23 +4,33 @@
 <head>
     <meta charset="utf-8"/>
     <title> Family Movies - MReview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\css/moviegallerydesktop.css" media="screen and (min-width:769px)"/>
+    <link rel="stylesheet" href="..\css/moviegallerytablet.css" media="screen and (min-width:481px) and (max-width:768px)"/>
+    <link rel="stylesheet" href="..\css/moviegalleryphone.css" media="screen and (max-width:480px)"/>
 </head>
 <body>
-<h1>Family Movies</h1>
 <nav>
-    <ul>
-        <li><a href="..\index.html">Home</a></li>
-        <li><a href="..\movies.html">All Movies</a></li>
-        <li><a href="..\genres.html">Genres</a></li>
-        <li><a href="..\forum.html">Forum</a></li>
-        <li>Search</li>
+    <ul class="tabbar">
+        <li class="tabs"><a href="..\index.html">Home</a></li>
+        <li class="tabs"><a href="..\movies.html">All Movies</a></li>
+        <li class="tabs"><a href="..\genres.html">Genres</a></li>
+        <li class="tabs"><a href="..\forum.html">Forum</a></li>
+        <li class="search">Search</li>
     </ul>
 </nav>
-<dl>
-    <dt><b><a href="..\allmovies/hocuspocus.html">Hocus Pocus</a></b></dt>
-    <dd><em>Comedy | Family | Fantasy</em></dd>
-    <dt><b><a href="..\allmovies/cinderella.html">Cinderella</a></b></dt>
-    <dd><em>Adventure | Comedy | Family</em></dd>
-</dl>
+<div class="header"><h1>Family Movies</h1></div>
+<div>
+    <div class="gallery">
+        <a href="..\allmovies/hocuspocus.html"><img src="..\images/hocuspocusimage.jpg" alt="Hocus Pocus"/>
+          <div class="desc">Hocus Pocus</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/cinderella.html"><img src="..\images/cinderellaimage.jpg" alt="Cinderella"/>
+          <div class="desc">Cinderella</div>
+        </a>
+    </div>
+</div>
 </body>
 </html>

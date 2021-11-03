@@ -4,31 +4,53 @@
 <head>
     <meta charset="utf-8"/>
     <title> Thriller Movies - MReview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="..\css/moviegallerydesktop.css" media="screen and (min-width:769px)"/>
+    <link rel="stylesheet" href="..\css/moviegallerytablet.css" media="screen and (min-width:481px) and (max-width:768px)"/>
+    <link rel="stylesheet" href="..\css/moviegalleryphone.css" media="screen and (max-width:480px)"/>
 </head>
 <body>
-<h1>Thriller Movies</h1>
 <nav>
-    <ul>
-        <li><a href="..\index.html">Home</a></li>
-        <li><a href="..\movies.html">All Movies</a></li>
-        <li><a href="..\genres.html">Genres</a></li>
-        <li><a href="..\forum.html">Forum</a></li>
-        <li>Search</li>
+    <ul class="tabbar">
+        <li class="tabs"><a href="..\index.html">Home</a></li>
+        <li class="tabs"><a href="..\movies.html">All Movies</a></li>
+        <li class="tabs"><a href="..\genres.html">Genres</a></li>
+        <li class="tabs"><a href="..\forum.html">Forum</a></li>
+        <li class="search">Search</li>
     </ul>
 </nav>
-<dl>
-    <dt><b><a href="..\allmovies/halloweenkills.html">Halloween Kills</a></b></dt>
-    <dd><em>Crime | Horror | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/notimetodie.html">No Time to Die</a></b></dt>
-    <dd><em>Action | Adventure | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/theguilty.html">The Guilty</a></b></dt>
-    <dd><em>Crime | Drama | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/spectre.html">Spectre</a></b></dt>
-    <dd><em>Action | Adventure | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/wolf.html">Wolf</a></b></dt>
-    <dd><em>Drama | Mystery | Thriller</em></dd>
-    <dt><b><a href="..\allmovies/casinoroyale.html">Casino Royale</a></b></dt>
-    <dd><em>Action | Adventure | Thriller</em></dd>
-</dl>
+<div class="header"><h1>Thriller Movies</h1></div>
+<div>
+    <div class="gallery">
+        <a href="..\allmovies/halloweenkills.html"><img src="..\images/halloweenkillsimage.jpg" alt="Halloween Kills"/>
+          <div class="desc">Halloween Kills</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/notimetodie.html"><img src="..\images/notimetodieimage.jpg" alt="No Time to Die"/>
+          <div class="desc">No Time to Die</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/theguilty.html"><img src="..\images/theguiltyimage.jpg" alt="The Guilty"/>
+          <div class="desc">The Guilty</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/spectre.html"><img src="..\images/spectreimage.jpg" alt="Spectre"/>
+          <div class="desc">Spectre</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/wolf.html"><img src="..\images/wolfimage.jpg" alt="Wolf"/>
+          <div class="desc">Wolf</div>
+        </a>
+    </div>
+    <div class="gallery">
+        <a href="..\allmovies/casinoroyale.html"><img src="..\images/casinoroyaleimage.jpg" alt="Casino Royale"/>
+          <div class="desc">Casino Royale</div>
+        </a>
+    </div>
+</div>
 </body>
 </html>
