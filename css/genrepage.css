@@ -16,6 +16,12 @@
         list-style: none;
         
     }
+
+    h1{
+        color:white;
+        width:100%
+    }
+    
     .tabbar{
         border: 1px solid white;
         width: 100%;
