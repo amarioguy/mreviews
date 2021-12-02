@@ -27,6 +27,9 @@
         text-align: center;
     }
 
+    h1{
+        color:white;
+    }
     h2, p, h3{
         color:white;
         width: 100%;
