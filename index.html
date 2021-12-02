@@ -7,36 +7,68 @@
             <title>MReviews</title>
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="css/homepage.css"/>
+            <link rel="script" href="search.js"/>
 
     </head>
 
     <body>
-            <div>
-                <table class="tabbar">
-                    <tr>
-                        <td class="tabs"><a href="index.html">Home</a></td>
-                        <td class="tabs"><a href="movies.html">All Movies</a>
-                        <ul class="dropdown">
-                          <li><a href="#">Sub-1</a></li>
-                          <li><a href="#">Sub-2</a></li>
-                          <li><a href="#">Sub-3</a></li>
-                        </ul>
-                      </td>
+        <div>
+            <table class="tabbar">
+                <tr>
+                    <td class="tabs"><a href="index.html">Home</a></td>
+                    <td class="tabs">
+                        <div class="dropdown">
+                            <a href="movies.html">
+                            All Movies
+                            <div class="menu-content">
+                                <a class="dropitm", href="#">a</a><br>
+                                <a class="dropitm", href="#">b</a><br>
+                                <a class="dropitm", href="#">c</a><br>
+                                <a class="dropitm", href="#">d</a><br>
+                            </div>
+                        </a>
+                        </div>
+                    </td>
+                    <td class="tabs"><a href="genres.html">Genres</a></td>
+                    <td class="tabs"><a href="forum.html">Forum</a></td>
+                </tr>
+            </table>
+        </div>            
+        <h1>Welcome to MReviews!</h1>
+        <h2>Featured movie:</h2>
+        <a href="allmovies/dune.html">
+        <div class="poster"><img src="images/duneimage.jpg" alt="Dune"></div>
+        <div class="moviename"><p>Dune</p></div>
+        <h2>Movie suggestions:</h2>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
-                        <td class="tabs"><a href="genres.html">Genres</a></td>
-                        <td class="tabs"><a href="forum.html">Forum</a></td>
-                        <td><input type="text" placeholder="Search" class="search"/></td>
-                    </tr>
-                </table>
-            </div>
-            <h2>Featured movie:</h2>
-            <div class="poster"><img src="images/duneimage.jpg" alt="Dune"/></div>
-            <div class="moviename"><p>Dune</p></div>
-            <h2>Movie suggestions:</h2>
-            <div class="suggest">
-                <p><a href="allmovies/freeguy.html">Free Guy</a></p>
-                <p><a href="allmovies/titanic.html">Titanic</a></p>
-                <p><a href="allmovies/venom.html">Venom</a></p>
-            </div>
+        </a>
+        <div class="suggest">
+            <p><a href="allmovies/freeguy.html">Free Guy</a></p>
+            <p><a href="allmovies/titanic.html">Titanic</a></p>
+            <p><a href="allmovies/venom.html">Venom</a></p>
+        </div>
     </body>
 </html>
