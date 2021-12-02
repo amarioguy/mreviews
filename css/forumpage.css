@@ -1,31 +1,30 @@
 @media only screen and (min-width: 769px){
-    li{
-        border-top: 2px solid rgb(255, 255, 255);
-        border-bottom: 2px solid rgb(255, 255, 255);
+    td{
         text-align: center;
         font-weight: bold;
         font-family: 'Courier New', Courier, monospace;
         display: inline-block;
         padding: 1%;
-        width: auto;
-        list-style: none;
         width: 17%;
-        margin: none;
+        list-style: none;
+        
     }
-    ul.tabbar{
+    .tabbar{
+        border: 1px solid white;
+        width: 100%;
         text-align: center;
     }
 
-    li.search{
-        color: rgb(255, 0, 0);
-        font-size: larger;
-        text-decoration: none;
+    .search{
+        text-align: left;
+        width: 80%;
     }
 
-    li.tabs a{
+    .tabs a{
         text-decoration: none;
         color: rgb(255, 0, 0);
         font-size: larger;
+        text-align: center;
     }
 
     body{
@@ -47,13 +46,13 @@
         text-decoration:none;
     }
 
-    div.top h1{
+    div.top-bar h1{
         color:white;
         text-decoration: none;
     }
 }
 @media only screen and (min-width: 481px) and (max-width:768px){
-    li{
+    td{
         border: 2px solid rgb(255, 255, 255);
         text-align: center;
         font-weight: bold;
@@ -63,18 +62,19 @@
         width: 80%;
         margin-top: 2%;
         margin-bottom: 2%;
-        margin-left: 5%;
     }
     
-    
-    
-    li.search{
-        color: rgb(255, 0, 0);
-        font-size: medium;
-        text-decoration: none;
+    .tabbar{
+        margin-left: 15%;
+        width: 70%;
     }
     
-    li.tabs a{
+    .search{
+        text-align: left;
+        width: 80%;
+    }
+    
+    .tabs a{
         text-decoration: none;
         color: rgb(255, 0, 0);
         font-size: medium;
@@ -98,14 +98,14 @@
         text-decoration:none;
     }
     
-    div.top h1{
+    div.top-bar h1{
         color:white;
         text-decoration: none;
     }
 }
 
 @media only screen and (max-width:480px){
-    li{
+    td{
         border: 2px solid rgb(255, 255, 255);
         text-align: center;
         font-weight: bold;
@@ -116,17 +116,17 @@
         margin-top: 2%;
         margin-bottom: 2%;
     }
-    ul.tabbar{
-        text-align: center;
+    .tabbar{
+        width: 70%;
+        margin-left: 20%;
     }
     
-    li.search{
-        color: rgb(255, 0, 0);
-        font-size: medium;
-        text-decoration: none;
+    .search{
+        width: 80%;
+        text-align: left;
     }
     
-    li.tabs a{
+    .tabs a{
         text-decoration: none;
         color: rgb(255, 0, 0);
         font-size: medium;
@@ -151,7 +151,7 @@
         text-decoration:none;
     }
     
-    div.top h1{
+    div.top-bar h1{
         color:white;
         text-decoration: none;
     }
