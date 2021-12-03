@@ -18,10 +18,6 @@
         height:5%;
         z-index: 200;
     }
-    .search{
-        text-align: left;
-        width: 80%;
-    }
     a{
         text-decoration: none;
     }
@@ -43,12 +39,6 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         margin-right: 5%;
         margin-left: 5%;
-    }
-
-    div.moviename h1{
-        color: white;
-        font-size: 400%;
-        width: 100%;
     }
 
     div.moviename p{
