@@ -30,7 +30,9 @@
         text-align: center;
         display: inline-block;
     }
-
+    a{
+        text-decoration: none;
+    }
     h1{
         width: 20%;
         color: white;
