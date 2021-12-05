@@ -152,6 +152,7 @@
     vertical-align: top;
   }
 
+  /*Dropdown*/
   .dropdown a {
     color: red;
   }
@@ -179,6 +180,28 @@
     visibility: visible;
     display: flex;
     flex-direction: column;
+  }
+
+  /*Dropdown Search*/
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(255, 0, 0);
+    opacity: 0.75;
+    /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: red;
+  }
+
+  input {
+    color: rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
+  }
+
+  input:hover {
+    background-color: rgb(0, 0, 0);
   }
 
   body {
