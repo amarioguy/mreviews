@@ -2,65 +2,124 @@
 
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8"/>
-        <title>The DUFF - MReview</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="..\css/individualmoviepage.css"/>
-    </head>
-    <body>
-        <div>
-            <table class="tabbar">
-                <tr>
-                    <td class="tabs"><a href="..\index.html">Home</a></td>
-                    <td class="tabs">
-                        <div class="dropdown">
-                            <a href="..\movies.html">
-                            All Movies
-                            <div class="menu-content">
-                                <a class="dropitm", href="#">a</a><br>
-                                <a class="dropitm", href="#">b</a><br>
-                                <a class="dropitm", href="#">c</a><br>
-                                <a class="dropitm", href="#">d</a><br>
-                            </div>
-                        </a>
-                        </div>
-                    </td>
-                    <td class="tabs"><a href="..\genres.html">Genres</a></td>
-                    <td class="tabs"><a href="..\forum.html">Forum</a></td>
-                </tr>
-            </table>
-        </div>
-        <div class="moviename">
-            <h1>The DUFF</h1>
-            <p>Rated PG-13</p>
-        </div>
-        <div class="poster">
-            <img src="..\images/duffimage.jpg" alt="Black Widow"/>
-        </div>
-        <div class="moviegenres">
-            <p>Comedy</p>
-            <p>Romance</p>
-        </div>
-        <hr>
-        <div class="reviews">
-            <h2>Movie Description:</h2>
-            <p>A high school senior instigates a social pecking order revolution after finding out that she has been labeled the DUFF - Designated Ugly Fat Friend - by her prettier, more popular counterparts. (IMDb)</p>
-        </div>
-        <div class="reviews">
-            <h2>What Are People Saying?</h2>
-            <h3>Critics Reviews</h3>
-            <p>"While director Ari Sandel's adaptation is devoid of any surprises and spells out every thought and action, it does finally deliver a worthy message." - Livemint</p>
-            <p>"Even if The DUFF doesn't raise the bar for recent teen romps, it allows Whitman and Amell to show off their considerable charms." - Empire Magazine</p>
-            <h3>Critics Consensus</h3>
-            <p>The DUFF doesn't achieve teen-movie greatness, but offers enough of a postmodern twist on the genre to recommend -- and boasts typically great work from star Mae Whitman. (Rotten Tomatoes)</p>
-        </div>
-        <div class="reviews">
-            <h2>Movie Ratings:</h2>
-            <p>73% Rotten Tomatoes</p>
-            <p>66% Audience Score</p>
-            <p>6.5/10 IMDb Rating</p>
-        </div>
-    </body>
+<head>
+  <link rel="shortcut icon" type="image/jpg" href="../favicon.ico" />
+  <meta charset="utf-8" />
+  <title>The DUFF - MReview</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="..\css/individualmoviepage.css" />
+</head>
+
+<body>
+  <div>
+    <table class="tabbar">
+      <tr>
+        <td class="tabs"><a href="index.html">Home</a></td>
+        <td class="tabs">
+          <div class="dropdown">
+            <a href="movies.html">All Movies</a>
+            <div class="menu-content" id="movie-menu">
+              <input type="text" class="dropitm" id="searchMovies" onkeyup="searchMovies()" placeholder="Search..." title="Search"><br>
+              <a class="dropitm" , href="allmovies/freeguy.html">Free Guy</a><br>
+              <a class="dropitm" , href="allmovies/addamsfamilytwo.html">The Addams Family 2</a><br>
+              <a class="dropitm" , href="allmovies/venomlettherebecarnage.html">Venom: Let There be Carnage</a><br>
+              <a class="dropitm" , href="allmovies/dune.html">Dune</a><br>
+              <a class="dropitm" , href="allmovies/residentevilraccooncity.html">Resident Evil: Welcome to Raccoon City</a><br>
+              <a class="dropitm" , href="allmovies/halloweenkills.html">Halloween Kills</a><br>
+              <a class="dropitm" , href="allmovies/frenchdispatch.html">The French Dispatch</a><br>
+              <a class="dropitm" , href="allmovies/titanic.html">Titanic</a><br>
+              <a class="dropitm" , href="allmovies/notimetodie.html">No Time to Die</a><br>
+              <a class="dropitm" , href="allmovies/blackwidow.html">Black Widow</a><br>
+              <a class="dropitm" , href="allmovies/theguilty.html">The Guilty</a><br>
+              <a class="dropitm" , href="allmovies/spectre.html">Spectre</a><br>
+              <a class="dropitm" , href="allmovies/manysaintsofnewark.html">The Many Saints of Newark</a><br>
+              <a class="dropitm" , href="allmovies/lastduel.html">The Last Duel</a><br>
+              <a class="dropitm" , href="allmovies/malignant.html">Malignant</a><br>
+              <a class="dropitm" , href="allmovies/wolf.html">Wolf</a><br>
+              <a class="dropitm" , href="allmovies/cruella.html">Cruella</a><br>
+              <a class="dropitm" , href="allmovies/cardcounter.html">The Card Counter</a><br>
+              <a class="dropitm" , href="allmovies/addamsfamily.html">The Addams Family</a><br>
+              <a class="dropitm" , href="allmovies/mylittleponyanewgeneration.html">My Little Pony: A New Generation</a><br>
+              <a class="dropitm" , href="allmovies/shangchiandlegendoftenrings.html">Shang Chi and the Legend of the Ten Rings</a><br>
+              <a class="dropitm" , href="allmovies/casinoroyale.html">Casino Royale</a><br>
+              <a class="dropitm" , href="allmovies/hocuspocus.html">Hocus Pocus</a><br>
+              <a class="dropitm" , href="allmovies/eternals.html">Eternals</a><br>
+              <a class="dropitm" , href="allmovies/cinderella.html">Cinderella</a><br>
+              <a class="dropitm" , href="allmovies/duff.html">The DUFF</a><br>
+              <a class="dropitm" , href="allmovies/suicidesquad.html">Suicide Squad</a><br>
+              <a class="dropitm" , href="allmovies/junglecruise.html">Jungle Cruise</a><br>
+              <a class="dropitm" , href="allmovies/venom.html">Venom</a><br>
+              <a class="dropitm" , href="allmovies/spidermannowayhome.html">Spider Man: No Way Home</a><br>
+
+            </div>
+            </a>
+          </div>
+        </td>
+        <td class="tabs">
+          <div class="dropdown">
+            <a href="genres.html">Genres</a>
+            <div class="menu-content" id="genre-menu">
+              <input type="text" class="dropitm" id="searchGenres" onkeyup="searchGenres()" placeholder="Search..." title="Search"><br>
+              <a class="dropitm" , href="genre/action.html">Action</a><br>
+              <a class="dropitm" , href="genre/adventure.html">Adventure</a><br>
+              <a class="dropitm" , href="genre/animation.html">Animation</a><br>
+              <a class="dropitm" , href="genre/biography.html">Biography</a><br>
+              <a class="dropitm" , href="genre/comedy.html">Comedy</a><br>
+              <a class="dropitm" , href="genre/crime.html">Crime</a><br>
+              <a class="dropitm" , href="genre/documentary.html">Documentary</a><br>
+              <a class="dropitm" , href="genre/drama.html">Drama</a><br>
+              <a class="dropitm" , href="genre/family.html">Family</a><br>
+              <a class="dropitm" , href="genre/fantasy.html">Fantasy</a><br>
+              <a class="dropitm" , href="genre/noir.html">Noir</a><br>
+              <a class="dropitm" , href="genre/history.html">History</a><br>
+              <a class="dropitm" , href="genre/horror.html">Horror</a><br>
+              <a class="dropitm" , href="genre/music.html">Music</a><br>
+              <a class="dropitm" , href="genre/musical.html">Musical</a><br>
+              <a class="dropitm" , href="genre/mystery.html">Mystery</a><br>
+              <a class="dropitm" , href="genre/romance.html">Romance</a><br>
+              <a class="dropitm" , href="genre/scifi.html">Sci-Fi</a><br>
+              <a class="dropitm" , href="genre/sports.html">Sports</a><br>
+              <a class="dropitm" , href="genre/superhero.html">Superhero</a><br>
+              <a class="dropitm" , href="genre/thriller.html">Thriller</a><br>
+              <a class="dropitm" , href="genre/war.html">War</a><br>
+              <a class="dropitm" , href="genre/western.html">Western</a><br>
+            </div>
+        </td>
+        <td class="tabs"><a href="forum.html">Forum</a></td>
+      </tr>
+    </table>
+  </div>
+  <div class="moviename">
+    <h1>The DUFF</h1>
+    <p>Rated PG-13</p>
+  </div>
+  <div class="poster">
+    <img src="..\images/duffimage.jpg" alt="Black Widow" />
+  </div>
+  <div class="moviegenres">
+    <p>Comedy</p>
+    <p>Romance</p>
+  </div>
+  <hr>
+  <div class="reviews">
+    <h2>Movie Description:</h2>
+    <p>A high school senior instigates a social pecking order revolution after finding out that she has been labeled the DUFF - Designated Ugly Fat Friend - by her prettier, more popular counterparts. (IMDb)</p>
+  </div>
+  <div class="reviews">
+    <h2>What Are People Saying?</h2>
+    <h3>Critics Reviews</h3>
+    <p>"While director Ari Sandel's adaptation is devoid of any surprises and spells out every thought and action, it does finally deliver a worthy message." - Livemint</p>
+    <p>"Even if The DUFF doesn't raise the bar for recent teen romps, it allows Whitman and Amell to show off their considerable charms." - Empire Magazine</p>
+    <h3>Critics Consensus</h3>
+    <p>The DUFF doesn't achieve teen-movie greatness, but offers enough of a postmodern twist on the genre to recommend -- and boasts typically great work from star Mae Whitman. (Rotten Tomatoes)</p>
+  </div>
+  <div class="reviews">
+    <h2>Movie Ratings:</h2>
+    <p>73% Rotten Tomatoes</p>
+    <p>66% Audience Score</p>
+    <p>6.5/10 IMDb Rating</p>
+  </div>
+  <script src="../js/search.js" type="text/javascript"></script>
+</body>
 
 </html>
