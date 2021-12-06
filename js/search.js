@@ -1,3 +1,9 @@
+var moviesSearchBar = document.getElementById("searchMovies");
+var genresSearchBar = document.getElementById("searchGenres");
+moviesSearchBar.onkeyup = function(){searchMovies()};
+genresSearchBar.onkeyup = function(){searchGenres()};
+
+
 function searchMovies(){
     var input, filtered, movies, i, a;
     input = document.getElementById("searchMovies");
