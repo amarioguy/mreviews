@@ -256,38 +256,11 @@ input:hover {
     text-align: center;
   }
 
-  .dropdown {
-    vertical-align: top;
-  }
-
-  .dropdown a {
-    color: red;
-  }
-
-  .dropitm {
-    background-color: rgb(0, 0, 0);
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    border-bottom: 1px solid white;
-  }
-
-  .dropitm:hover {
-    background-color: rgb(121, 19, 6)
-  }
-
   .dropdown .menu-content {
     visibility: hidden;
     display: none;
-  }
 
-  .dropdown:hover .menu-content {
-    visibility: visible;
-    display: flex;
-    flex-direction: column;
-  }
+}
 
   body {
     background-color: black;
