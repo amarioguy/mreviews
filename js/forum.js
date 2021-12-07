@@ -17,7 +17,12 @@ function submitText(){
         li.appendChild(document.createTextNode(text.value));
         var newButton = document.createElement("button");
         newButton.innerHTML = "Delete";
-        newButton.id = (parseInt(postList.lastElementChild.lastElementChild.id) + 1) + ""
+        if(isEmpty(postList)){
+            newButton.id="0";
+        }
+        else{
+            newButton.id = (parseInt(postList.lastElementChild.lastElementChild.id) + 1) + ""
+        }
         newButton.onclick = function(){deleteText(newButton)};
         li.appendChild(newButton);
         postList.appendChild(li);
@@ -28,4 +33,8 @@ function submitText(){
 function deleteText(button){
         var li = button.parentElement;
         li.remove();
+}
+
+function isEmpty(lst){
+    return lst.innerHTML.trim() ==""
 }
